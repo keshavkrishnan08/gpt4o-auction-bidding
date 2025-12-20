@@ -1,0 +1,9 @@
+Persona,Mechanism,Mechanism_Comprehension_%,Theory_Citation_%,Avg_Length,N
+honest,First-Price,100.0,100.0,404.54,50
+honest,Second-Price,100.0,100.0,340.98,50
+profit-maximizing,First-Price,100.0,100.0,464.38,50
+profit-maximizing,Second-Price,100.0,100.0,385.8,50
+risk-averse,First-Price,100.0,80.0,464.88,50
+risk-averse,Second-Price,100.0,100.0,360.42,50
+risk-seeking,First-Price,100.0,64.0,471.38,50
+risk-seeking,Second-Price,100.0,100.0,469.68,50
