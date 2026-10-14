@@ -1,3 +1,5 @@
+import os
+
 # basic config for the sim
 NUM_ROUNDS = 50
 NUM_NON_LLM_AGENTS = 3
@@ -23,5 +25,5 @@ PERSONA_RISK_SEEKING = "risk-seeking"
 # using gpt-4o by default
 MODEL_DEFAULT = "gpt-4o"
 
-# sticking the key here for convenience
-OPENAI_API_KEY = "your-api-key-here"
+# read the key from the environment so it never lands in the repo
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")

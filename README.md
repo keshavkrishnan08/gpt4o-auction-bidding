@@ -90,8 +90,8 @@ profit plots.
 ## Run it
 
 ```bash
-pip install -r requirements.txt     # analysis/statistical_tests.py also needs scipy
-# put your key in config.py (OPENAI_API_KEY); the environment variable is read only when that field is empty
+pip install -r requirements.txt
+export OPENAI_API_KEY=...            # read by config.py; never commit a key
 chmod +x run_all_experiments.sh
 ./run_all_experiments.sh            # 4 personas x 2 experiments x 50 rounds, then metrics and plots
 ```
@@ -120,7 +120,7 @@ agents/                        GPT-4o agent, truthful, 70% strategic and random 
 auctions/                      first-price and second-price clearing
 analysis/                      Experiment 1 metrics, significance tests, reasoning keywords, plots/
 data/                          results and budget results (400 rows each), reasoning logs and samples
-config.py                      rounds, value range, personas, model name, API key
+config.py                      rounds, value range, personas, model name; reads OPENAI_API_KEY
 run_all_experiments.sh         every persona and experiment, then all analysis
 ```
 
