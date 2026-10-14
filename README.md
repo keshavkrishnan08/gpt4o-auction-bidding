@@ -1,4 +1,4 @@
-# Ad Auction LLM Sim
+# GPT-4o Auction Bidding
 
 A quick project to see how LLMs handle different auction types. Basically, do they know when to be honest (top-tier strategy for second-price auctions) and when to "shade" their bids (first-price auctions)? 
 
